@@ -1,0 +1,18 @@
+{
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "editor.tabSize": 2,
+    "git.ignoreLimitWarning": true,
+    "editor.rulers": [120],
+    "editor.detectIndentation": false,
+
+}
