@@ -1,1 +1,1 @@
-export {Text, Box, useTheme, makeStyles, ThemeProvider, theme} from './theme';
+export {Text, Box, useTheme, makeStyles, ThemeProvider, theme, SIZE} from './theme';

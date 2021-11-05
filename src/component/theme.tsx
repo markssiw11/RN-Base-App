@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { ViewStyle, TextStyle, ImageStyle } from 'react-native';
+import { ViewStyle, TextStyle, ImageStyle,Dimensions } from 'react-native';
 import {
   createTheme,
   createText,
@@ -7,7 +7,7 @@ import {
   useTheme as useReTheme,
   ThemeProvider as ReStyleThemeProvider,
 } from '@shopify/restyle';
-
+const {width, height} = Dimensions.get('window');
 export const pallette = {
   white: 'white',
 };
@@ -121,6 +121,10 @@ export const theme = createTheme({
   },
   breakpoints: {},
 });
+export const SIZE = {
+  width,
+  height,
+}
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => (
   <ReStyleThemeProvider {...{ theme }}>{children}</ReStyleThemeProvider>

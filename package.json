@@ -13,9 +13,11 @@
     "@react-native-async-storage/async-storage": "^1.15.9",
     "@reduxjs/toolkit": "^1.6.2",
     "@shopify/restyle": "^1.4.0",
+    "galio-framework": "^0.8.0",
     "react": "17.0.2",
     "react-native": "0.66.1",
     "react-native-flipper": "^0.116.0",
+    "react-native-vector-icons": "^8.1.0",
     "react-redux": "^7.2.5",
     "redux-flipper": "^2.0.1",
     "redux-persist": "^6.0.0"

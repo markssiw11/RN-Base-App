@@ -12,7 +12,7 @@
     },
     "editor.tabSize": 2,
     "git.ignoreLimitWarning": true,
-    "editor.rulers": [120],
+    "editor.rulers": [160],
     "editor.detectIndentation": false,
 
 }
